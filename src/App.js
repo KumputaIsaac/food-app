@@ -18,15 +18,16 @@ export default function App() {
   const [query,setQuery] = useState("chicken")
 
   useEffect(()=>{
-    getRecipes()
-  },[query])
-
-  async function getRecipes() {
+    async function getRecipes() {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
     const data = await response.json()
     setRecipe(data.hits)
     
   }
+    getRecipes()
+  },[query])
+
+  
 
   const getChange =(e)=>{
     setSearch(e.target.value)
