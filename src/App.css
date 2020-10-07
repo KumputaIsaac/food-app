@@ -1,0 +1,26 @@
+body{
+    font-family: "Lucida Console", Courier, monospace !important;
+}
+
+h1 {
+  background: #b06c25;
+  outline:5px solid #b06c25;
+  color:#fff;
+  text-shadow:1px 1px #83511d;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    width:50%;
+}
+
+.buttonn{
+    padding: 10px;
+}
+
+.d-flex{
+    margin-bottom: 70%;
+}
