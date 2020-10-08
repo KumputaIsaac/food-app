@@ -17,8 +17,11 @@ input{
     width:50%;
 }
 
-.buttonn{
-    padding: 10px;
+button{
+    outline: none;
+    color: red;
+    font-weight: bold;
+    border: none;
 }
 
 .d-flex{
@@ -32,4 +35,28 @@ input{
         .d-flex{
             margin-bottom: 20px;
         }
+}
+
+@media only screen and (max-width: 414px) {
+    .d-flex{
+        margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .d-flex{
+        margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+    .d-flex{
+        margin-bottom: 60%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+    .d-flex{
+        margin-bottom: 80%;
+  }
 }
