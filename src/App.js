@@ -41,10 +41,10 @@ export default function App() {
 
 
   return (
-    <div className='text-center'>
+    <div className='text-center bottom'>
       <form className="" onSubmit={passSearch}>
         <input type='search' placeholder='Enter food name' onChange={getChange}/>
-        <button type='submit' className='p-1 btn btn-outline-light text-dark'>Search</button>
+        <button type='submit' className='p-1 '>Search</button>
       </form>
       <div className='d-flex justify-content-center flex-wrap'>
         {recipes.map((recipe,i)=>(
